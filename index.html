@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Admin Dashboard</title>
+    <!-- 
+  Material Icons by Google
+  Licensed under Apache License 2.0
+  https://www.apache.org/licenses/LICENSE-2.0
+-->
 </head>
 
 <body>
@@ -15,29 +20,21 @@
                 <h1>Dashboard</h1>
             </div>
             <ul class="nav">
-                <li><span><img src="images/icons/home.svg" alt=""></span>Home</li>
-                <li><span><img src="images/icons/account-box.svg" alt=""></span>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communuties</li>
+                <li><a href="#"><span><img src="images/icons/home.svg" alt=""></span>Home</a></li>
+                <li><a href="#"><span><img src="images/icons/account.svg" alt=""></span>Profile</a></li>
+                <li><a href="#"><span><img src="images/icons/messages.svg" alt=""></span>Messages</a></li>
+                <li><a href="#"><span><img src="images/icons/history.svg" alt=""></span>History</a></li>
+                <li><a href="#"><span><img src="images/icons/tasks.svg" alt=""></span>Tasks</a></li>
+                <li><a href="#"><span><img src="images/icons/community.svg" alt=""></span>Communuties</a></li>
                 <br><br>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
+                <li><a href="#"><span><img src="images/icons/settings.svg" alt=""></span>Settings</a></li>
+                <li><a href="#"><span><img src="images/icons/support.svg" alt=""></span>Support</a></li>
+                <li><a href="#"><span><img src="images/icons/privacy.svg" alt=""></span>Privacy</a></li>
             </ul>
         </div>
 
-        <div class="header">
-            <div class="search-bar">
-                <input type="search">
-                <div>
-                    <p>icon</p>
-                    <p>avatar</p>
-                    <p>Username</p>
-                </div>
-            </div>
-            <div class="user-info">
+        <div class="header-section">
+            <div class="header">
                 <div class="welcome">
                     <div class="icon"></div>
                     <div class="greeting">
@@ -45,131 +42,136 @@
                         <p>Name, Surname (@username)</p>
                     </div>
                 </div>
+                <div class="search">
+                    <input type="search" id="search" placeholder="Search">
+                </div>
                 <div class="buttons">
                     <button>New</button>
                     <button>Upload</button>
                     <button>Share</button>
                 </div>
             </div>
-        </div>
 
-        <div class="main-content">
-            <section class="projects">
-                <h2>Your Projects</h2>
-                <div class="cards">
-                    <div class="card">
-                        <div class="card-text">
-                            <h4>Card title</h4>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore.
+            <div class="main-content">
+                <section class="projects">
+                    <h2>Your Projects</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="card-text">
+                                <h4>Card title</h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor
+                                    invidunt ut labore.
+                                </p>
+                            </div>
+                            <div class="card-buttons">
+                                <div class="icon"><img src="images/icons/star.svg"></div>
+                                <div class="icon"><img src="images/icons/attach-file.svg"></div>
+                                <div class="icon"><img src="images/icons/share.svg"></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-text">
+                                <h4>Card title</h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor
+                                    invidunt ut labore.
+                                </p>
+                            </div>
+                            <div class="card-buttons">
+                                <div class="icon"><img src="images/icons/star.svg"></div>
+                                <div class="icon"><img src="images/icons/attach-file.svg"></div>
+                                <div class="icon"><img src="images/icons/share.svg"></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-text">
+                                <h4>Card title</h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor
+                                    invidunt ut labore.
+                                </p>
+                            </div>
+                            <div class="card-buttons">
+                                <div class="icon"><img src="images/icons/star.svg"></div>
+                                <div class="icon"><img src="images/icons/attach-file.svg"></div>
+                                <div class="icon"><img src="images/icons/share.svg"></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-text">
+                                <h4>Card title</h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor
+                                    invidunt ut labore.
+                                </p>
+                            </div>
+                            <div class="card-buttons">
+                                <div class="icon"><img src="images/icons/star.svg"></div>
+                                <div class="icon"><img src="images/icons/attach-file.svg"></div>
+                                <div class="icon"><img src="images/icons/share.svg"></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-text">
+                                <h4>Card title</h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor
+                                    invidunt ut labore.
+                                </p>
+                            </div>
+                            <div class="card-buttons">
+                                <div class="icon"><img src="images/icons/star.svg"></div>
+                                <div class="icon"><img src="images/icons/attach-file.svg"></div>
+                                <div class="icon"><img src="images/icons/share.svg"></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-text">
+                                <h4>Card title</h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor
+                                    invidunt ut labore.
+                                </p>
+                            </div>
+                            <div class="card-buttons">
+                                <div class="icon"><img src="images/icons/star.svg"></div>
+                                <div class="icon"><img src="images/icons/attach-file.svg"></div>
+                                <div class="icon"><img src="images/icons/share.svg"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="announcements">
+                    <h2>Announcements</h2>
+                    <div class="group">
+                        <div class="announcement">
+                            <h5>Card title</h5>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                            </p>
+                            <hr>
+                        </div>
+                        <div class="announcement">
+                            <h5>Card title</h5>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                            </p>
+                            <hr>
+                        </div>
+                        <div class="announcement">
+                            <h5>Card title</h5>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
                             </p>
                         </div>
-                        <div class="card-buttons">
-                            <div class="icon"></div>
-                            <div class="icon"></div>
-                            <div class="icon"></div>
-                        </div>
                     </div>
+                </section>
+                <section class="trending">
+                    <h2>Trending</h2>
                     <div class="card">
-                        <div class="card-text">
-                            <h4>Card title</h4>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore.
-                            </p>
-                        </div>
-                        <div class="card-buttons">
-                            <div class="icon"></div>
-                            <div class="icon"></div>
-                            <div class="icon"></div>
-                        </div>
+                        Some content
                     </div>
-                    <div class="card">
-                        <div class="card-text">
-                            <h4>Card title</h4>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore.
-                            </p>
-                        </div>
-                        <div class="card-buttons">
-                            <div class="icon"></div>
-                            <div class="icon"></div>
-                            <div class="icon"></div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-text">
-                            <h4>Card title</h4>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore.
-                            </p>
-                        </div>
-                        <div class="card-buttons">
-                            <div class="icon"></div>
-                            <div class="icon"></div>
-                            <div class="icon"></div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-text">
-                            <h4>Card title</h4>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore.
-                            </p>
-                        </div>
-                        <div class="card-buttons">
-                            <div class="icon"></div>
-                            <div class="icon"></div>
-                            <div class="icon"></div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-text">
-                            <h4>Card title</h4>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore.
-                            </p>
-                        </div>
-                        <div class="card-buttons">
-                            <div class="icon"></div>
-                            <div class="icon"></div>
-                            <div class="icon"></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="announcements">
-                <h2>Announcements</h2>
-                <div class="group">
-                    <div class="announcement">
-                        <h5>Card title</h5>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore.
-                        </p>
-                        <hr>
-                    </div>
-                    <div class="announcement">
-                        <h5>Card title</h5>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore.
-                        </p>
-                        <hr>
-                    </div>
-                    <div class="announcement">
-                        <h5>Card title</h5>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore.
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <section class="trending">
-                <h2>Trending</h2>
-                <div class="card">
-                    Some content
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
-    </div>
 </body>
 
 </html>
